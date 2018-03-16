@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ie.wit.collegeplanner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.Subjects"
+            android:label="College Planner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ViewSubjects"
+            android:label="View Subjects" />
+        <activity
+            android:name=".activities.Assignments"
+            android:label="Assignments" />
+        <activity
+            android:name=".activities.ViewAssignments"
+            android:label="View Assignments" />
+        <activity android:name=".activities.Splash"></activity>
+    </application>
+
+</manifest>

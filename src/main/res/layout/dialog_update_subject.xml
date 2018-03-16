@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Edit Subject"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/editTextSubjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextSubjectTimetableName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject Timetable Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextSubjectRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject Room"
+        android:inputType="text|number" />
+
+    <EditText
+        android:id="@+id/editTextSubjectTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject Teacher"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/buttonUpdateSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="#66009688"/>
+
+
+</LinearLayout>

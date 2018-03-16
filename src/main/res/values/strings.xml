@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">College Planner</string>
+    <string name="menuSubject">Subject</string>
+    <string name="menuViewSubjects">View Subjects</string>
+    <string name="menuViewAssigments">View Assignments</string>
+    <string name="menuAssignment">Assignment</string>
+    <string name="welcomeTitle">College Planner</string>
+    <string name="welcomeMessage">Allows users to use CRUD functions for subjects and assignments</string>
+    <array name="subjects">
+        <item>User Centred Design</item>
+        <item>GUI Development</item>
+        <item>Software Enterprises</item>
+        <item>Security Principles</item>
+        <item>Organisational Systems</item>
+        <item>Database Systems</item>
+    </array>
+</resources>

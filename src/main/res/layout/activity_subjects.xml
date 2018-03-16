@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Subjects">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/SubjectTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Add a new Subject"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/editTextSubjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Subject Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextSubjectTimetableName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Timetable Name"
+            android:inputType="text"
+            android:paddingLeft="6dp" />
+
+        <EditText
+            android:id="@+id/editTextSubjectRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Subject Room"
+            android:inputType="text|number" />
+
+        <EditText
+            android:id="@+id/editTextSubjectTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Subject Teacher"
+            android:inputType="text"
+            android:paddingLeft="6dp" />
+
+
+        <Button
+            android:id="@+id/buttonAddSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Subject"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/textViewViewSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="View Subjects"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

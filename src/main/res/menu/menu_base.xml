@@ -1,0 +1,31 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menuSubject"
+        android:onClick="subjects"
+        android:orderInCategory="101"
+        android:title="@string/menuSubject"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuViewSubjects"
+        android:onClick="report"
+        android:orderInCategory="102"
+        android:title="@string/menuViewSubjects" />
+
+    <item
+        android:id="@+id/menuAssignment"
+        android:onClick="assignments"
+        android:orderInCategory="103"
+        android:title="@string/menuAssignment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuViewAssignments"
+        android:onClick="assignmentReport"
+        android:orderInCategory="104"
+        android:title="@string/menuViewAssigments" />
+</menu>
